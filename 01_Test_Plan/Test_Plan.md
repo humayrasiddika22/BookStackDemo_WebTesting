@@ -94,7 +94,7 @@ Playwright with JavaScript will be used to automate selected workflows. The auto
 The planned automation workflow will have three stages:
 
 1. Log in to the application.
-2. Create two new books and a new shelf; add both books to the newly created shelf.
+2. Create two new books and a new shelf; add a book to the newly created shelf.
 3. Search for the shelf from the homepage, review its contents and delete it.
 
 Automation assertions will verify meaningful application outcomes, not merely whether buttons were clicked. Appropriate waiting strategies, identifiable test data and failure diagnostics will be used to improve reliability.
@@ -173,7 +173,7 @@ Testing may be considered complete when:
 | Test data is accidentally deleted | Verify ownership and target details before destructive actions. |
 | Automation scenarios depend on one another | Design clear setup, execution, and cleanup procedures. |
 | Test results are incomplete or inconsistent | Maintain execution records and evidence in a consistent format. |
-| A defect cannot be reproduced consistently | Repeat the steps, document observations, and avoid unsupported conclusions. |
+| A defect cannot be reproduced consistently | Repeat the steps, document observations and avoid unsupported conclusions. |
 
 ## Deliverables
 
