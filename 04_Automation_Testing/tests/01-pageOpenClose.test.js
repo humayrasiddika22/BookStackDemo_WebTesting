@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import { Base } from '../pages/Base';
 
 test('The page is accessed successfully.', async ({ page }) => {

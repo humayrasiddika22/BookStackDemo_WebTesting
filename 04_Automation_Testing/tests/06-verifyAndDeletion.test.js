@@ -1,4 +1,4 @@
-import {test, expect} from '@playwright/test';
+import {test} from '@playwright/test';
 import { VerifyAndDeletion } from '../pages/VerifyAndDeletion.js';
 import {loginData} from "../test-data/testData.js";
 import {newBooksData} from "../test-data/testData.js";
